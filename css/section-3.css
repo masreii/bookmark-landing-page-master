@@ -1,0 +1,80 @@
+.section-3{
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.section-3 h2 , .section-3 p{
+  text-align: center;
+}
+
+.section-3 h2 {
+  font-size: 2.5vw;
+  margin-bottom: 1rem;
+}
+
+.section-3 p{
+  width: 70%;
+  margin: auto;
+  color: gray;
+  font-size: 1.1vw;
+}
+
+.section-3 article{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+
+}
+   .card-extension {
+  width: 20%;
+  text-align: center;
+  box-shadow: 0rem 0rem 8px 0.1rem rgb(213, 213, 213);
+  border-radius: 1rem;
+  background-color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-extension div{
+  display: flex;
+  padding: 2.2rem;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 7px dotted #cad2ff;
+}
+
+.card-extension div img{
+  width: 50%;
+}
+
+
+.card-extension p {
+  width: 100%;
+}
+.card-extension button{
+  padding: 0.75rem;
+  margin:1.2rem;
+  border: none;
+  background-color: #5368df;
+  color: white;
+  width: 85%;
+  font-size: 1vw;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.card-extension:nth-child(2){
+  margin-top: 5rem;
+}
+.card-extension:nth-child(3){
+  margin-top: 10rem;
+}
+
+.card-extension:hover{
+  transform: translateY(-15px);
+}
+
+
+

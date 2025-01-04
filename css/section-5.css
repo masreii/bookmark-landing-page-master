@@ -1,0 +1,45 @@
+.section-5 {
+  height: 30vh;
+  background-color: #5368df;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section-5 form {
+  gap: 0.5rem;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-5 input, .section-5 .text-submit {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.section-5 .text-input {
+  width: 120%;
+}
+
+.section-5 .text-submit{
+  width: 55%;
+  background-color: rgb(244, 66, 66);
+  color: white;
+  padding: 0.9rem;
+  font-weight: 700;
+  font-size:0.7rem;
+}
+
+
+
+.section-5 .form{
+  width: 400px;
+}

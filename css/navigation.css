@@ -1,0 +1,51 @@
+.navigation-bar {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  height: 40px;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  
+}
+
+.list-right {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.4vw;
+  padding: 1rem;
+}
+
+.left-navbar {
+  width: 85%;
+}
+
+.right-navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.list-right a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-right a li {
+  list-style: none;
+  padding: 1rem;
+  text-align: center;
+}
+
+.login-button {
+  background-color: rgb(224, 68, 68);
+  color: white;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+.icon-hamburger{
+  display: none;
+}

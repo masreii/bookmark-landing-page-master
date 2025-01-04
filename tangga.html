@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.card button {
+  background: #5565e8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background: #3246c7;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+  </style>
+</head>
+<body>
+  <div class="cards-container">
+    <div class="card">
+      <img src="images/logo-chrome.svg" alt="Chrome Logo" />
+      <h3>Add to Chrome</h3>
+      <p>Minimum version 62</p>
+      <button>Add & Install Extension</button>
+    </div>
+    <div class="card">
+      <img src="images/logo-firefox.svg" alt="Firefox Logo" />
+      <h3>Add to Firefox</h3>
+      <p>Minimum version 55</p>
+      <button>Add & Install Extension</button>
+    </div>
+    <div class="card">
+      <img src="images/logo-opera.svg" alt="Opera Logo" />
+      <h3>Add to Opera</h3>
+      <p>Minimum version 46</p>
+      <button>Add & Install Extension</button>
+    </div>
+  </div>
+  
+</body>
+</html>

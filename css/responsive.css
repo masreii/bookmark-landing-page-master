@@ -1,0 +1,172 @@
+/* handphone */
+
+@media (max-width: 480px) {
+  /* navigation */
+  .list-right {
+    display: none;
+  }
+
+  .icon-hamburger {
+    display: block;
+  }
+
+  /* section 1 */
+
+
+  .section-1 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .section-1-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-1-left .button-action{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button-action button{
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .section-1 p {
+    font-size: 1.2rem;
+  }
+
+  .section-2 h1 {
+    font-size: 1.3rem;
+  }
+  .section-2 p {
+    font-size: 0.7rem;
+  }
+
+  .button-tab div {
+    font-size: 0.7rem;
+  }
+
+  .section-3 {
+    margin: 0;
+    padding-top: 2.5rem;
+  }
+
+  .section-3 p {
+    font-size: 0.7rem;
+  }
+  .section-3 h2 {
+    font-size: 1.2rem;
+    margin-top: 5rem;
+  }
+
+  .section-3 article {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+
+  .card-extension {
+    width: 75%;
+    margin: 0;
+  }
+
+  .card-extension:nth-child(2) {
+    margin: 0;
+  }
+  .card-extension:nth-child(3) {
+    margin: 0;
+  }
+
+  .tabContent img {
+    width: 90%;
+    height: 60%;
+  }
+
+  .tabContent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-shadow-tabContent {
+    height: 70%;
+    bottom: -2rem;
+  }
+
+  .right-tabContent button {
+    display: none;
+  }
+
+  .right-tabContent h3 {
+    padding-top: 2.5rem;
+    font-size: 1.2rem;
+  }
+
+  .right-tabContent p,
+  .right-tabContent {
+    margin: auto;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .section-5 .form {
+    width: 220px;
+  }
+
+  .section-5 {
+    padding-bottom: 1.3rem;
+    padding-top: 1.3rem;
+  }
+
+  .button-tab {
+    display: block;
+  }
+
+  .button-tab div {
+    margin: auto;
+    width: 60%;
+  }
+
+  .faq-button1,
+  .card-extension button {
+    font-size: 0.8rem;
+  }
+
+  /* footer */
+
+  footer section {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .left-footer {
+    margin-right: 2.2rem;
+    width: 100%;
+  }
+
+  .left-footer ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+    justify-content: center;
+  }
+}
